@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-style: sans-serif;
+}
+
+nav ul {
+  background-color: #39424e;
+  padding-top: 10pt;
+}
+header {
+  display: inline;
+  font-weight: bolder;
+  margin: 50pt;
+}
+
+header li {
+  font-size: 34px;
+  position: relative;
+  left: 30px;
+  display: inline;
+  color: white;
+}
+li i {
+  color: green;
+}
+ul div li {
+  color: white;
+  display: inline;
+  padding: 10px;
+  position: relative;
+  left: 20%;
+  font-size: 18px;
+  bottom: 28px;
+}
+ul .search {
+  color: red;
+  font-size: 18px;
+  position: absolute;
+  left: 55%;
+  top: 6%;
+}
+#logInbutton,
+#signupbutton {
+  background-color: #333a44;
+  padding: 8px 18px;
+  border: 1px solid black;
+  position: relative;
+  top: -15pt;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 25px;
+  border: 1px solid #252a32;
+  background-color: #303741;
+  /* background-image: linear-gradient(180deg, #39424e, #303741); */
+  /* box-shadow: inset 0 1px 2px hsl(0deg 0% 100% / 15%),
+    0 1px 3px rgb(0 0 0 / 10%); */
+}
+#signupbutton {
+  border-color: #088837 #088837 #007827;
+  background-color: #29b35b;
+}
+main {
+  background-color: #e7eeef;
+}
+#Hi {
+  text-decoration: underline;
+  font-size: 16px;
+}
+#div1 {
+  width: 100%;
+  background-color: white;
+  height: 6em;
+}
+.up {
+  position: relative;
+  bottom: 55px;
+}
+#div1 span,
+h1 {
+  position: relative;
+  display: inline;
+  left: 7%;
+  top: 20%;
+  font-family: var(--font-family-text);
+}
+main h3 {
+  position: relative;
+  left: 7%;
+  font-size: 23px;
+  display: inline-block;
+  padding-top: 25pt;
+  padding-bottom: 10pt;
+}
+section div {
+  width: 35%;
+  padding: 4%;
+  display: inline-block;
+  /* border: 2px solid; */
+  position: relative;
+  left: 80pt;
+  top: 10pt;
+  margin-right: 20pt;
+  padding-bottom: 20px;
+  background-color: white;
+}
+section table {
+  /* border: 2px solid; */
+  position: relative;
+  left: 80pt;
+  top: 10pt;
+  width: 90%;
+  background-color: white;
+}
+
+td {
+  border: 1px;
+  border-collapse: separate;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+ul li span {
+  color: #39424e;
+}
+
+div h4 {
+  position: relative;
+  bottom: 20pt;
+  right: 15pt;
+  font-weight: 400;
+  color: cadetblue;
+}
+div h2,
+p,
+input {
+  position: relative;
+  bottom: 20pt;
+  right: 15pt;
+  margin-top: 15pt;
+  font-size: 28px;
+}
+div p {
+  font-size: 17px;
+  display: inline-block;
+  width: 76%;
+  color: rgb(113, 113, 113);
+}
+div input {
+  padding-left: 20pt;
+  padding-right: 20pt;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(44, 174, 44);
+  color: white;
+  border: none;
+}
+p#notspan {
+  display: inline-block;
+  width: 110%;
+}
+input#expand {
+  background-color: white;
+  color: rgb(44, 174, 44);
+  border: 1px solid;
+  width: 35%;
+}
+div.certification {
+  width: 23%;
+  padding: 30pt;
+  padding-bottom: 10px;
+}
+div.certification input {
+  background-color: white;
+  color: rgb(44, 174, 44);
+  border: 2px solid;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+div.certificationh2p {
+  background-color: black;
+  width: 20%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+div.certificationh2p p {
+  width: 120%;
+  color: white;
+}
+div.certificationh2p span {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  display: inline-block;
+  position: relative;
+  right: 22px;
+}
+div.certificationh2p input {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 22px;
+  border-radius: 3px;
+  background-color: white;
+
+  color: rgba(0, 0, 0, 0.753);
+}
+h3 span {
+  font-size: 16px;
+  color: rgb(58, 58, 255);
+  font-weight: 300;
+}
+
+.prep h3 {
+  position: relative;
+  bottom: 20px;
+  left: 80%x;
+  display: block;
+}
+.prep span {
+  position: relative;
+  left: 7%;
+  bottom: 25px;
+  font-size: 17px;
+}
+.prep div {
+  position: relative;
+  top: 0px;
+  width: 42.3%;
+  padding: 10px;
+  /* border: 2px solid; */
+}
+li:hover,
+input:hover,
+td:hover,
+h3 span:hover {
+  cursor: pointer;
+}
+footer ul {
+  padding: 20px;
+  text-align: center;
+}
+footer ul li {
+  color: #097bbf;
+  display: inline;
+  padding: 3px;
+  font-size: 18px;
+}
+button {
+  background-color: #dee4eb;
+  padding: 6pt;
+  border: none;
+  margin-left: 30pt;
+}
